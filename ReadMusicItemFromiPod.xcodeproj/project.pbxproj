@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62BAE6811CC7218000C686B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6801CC7218000C686B5 /* main.m */; };
+		62BAE6841CC7218000C686B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6831CC7218000C686B5 /* AppDelegate.m */; };
+		62BAE6871CC7218000C686B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6861CC7218000C686B5 /* ViewController.m */; };
+		62BAE68A1CC7218000C686B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BAE6881CC7218000C686B5 /* Main.storyboard */; };
+		62BAE68C1CC7218000C686B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BAE68B1CC7218000C686B5 /* Assets.xcassets */; };
+		62BAE68F1CC7218000C686B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BAE68D1CC7218000C686B5 /* LaunchScreen.storyboard */; };
+		62BAE69A1CC7218000C686B5 /* ReadMusicItemFromiPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6991CC7218000C686B5 /* ReadMusicItemFromiPodTests.m */; };
+		62BAE6A91CC721CE00C686B5 /* VNBMusicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6A61CC721CE00C686B5 /* VNBMusicItem.m */; };
+		62BAE6AA1CC721CE00C686B5 /* VNBMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAE6A81CC721CE00C686B5 /* VNBMusicManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BAE6961CC7218000C686B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BAE6741CC7218000C686B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BAE67B1CC7218000C686B5;
+			remoteInfo = ReadMusicItemFromiPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62BAE67C1CC7218000C686B5 /* ReadMusicItemFromiPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMusicItemFromiPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BAE6801CC7218000C686B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62BAE6821CC7218000C686B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62BAE6831CC7218000C686B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62BAE6851CC7218000C686B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62BAE6861CC7218000C686B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62BAE6891CC7218000C686B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62BAE68B1CC7218000C686B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BAE68E1CC7218000C686B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62BAE6901CC7218000C686B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BAE6951CC7218000C686B5 /* ReadMusicItemFromiPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadMusicItemFromiPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BAE6991CC7218000C686B5 /* ReadMusicItemFromiPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadMusicItemFromiPodTests.m; sourceTree = "<group>"; };
+		62BAE69B1CC7218000C686B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BAE6A51CC721CE00C686B5 /* VNBMusicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VNBMusicItem.h; path = Model/VNBMusicItem.h; sourceTree = "<group>"; };
+		62BAE6A61CC721CE00C686B5 /* VNBMusicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VNBMusicItem.m; path = Model/VNBMusicItem.m; sourceTree = "<group>"; };
+		62BAE6A71CC721CE00C686B5 /* VNBMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VNBMusicManager.h; path = Model/VNBMusicManager.h; sourceTree = "<group>"; };
+		62BAE6A81CC721CE00C686B5 /* VNBMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VNBMusicManager.m; path = Model/VNBMusicManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BAE6791CC7218000C686B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BAE6921CC7218000C686B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62BAE6731CC7218000C686B5 = {
+			isa = PBXGroup;
+			children = (
+				62BAE67E1CC7218000C686B5 /* ReadMusicItemFromiPod */,
+				62BAE6981CC7218000C686B5 /* ReadMusicItemFromiPodTests */,
+				62BAE67D1CC7218000C686B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BAE67D1CC7218000C686B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE67C1CC7218000C686B5 /* ReadMusicItemFromiPod.app */,
+				62BAE6951CC7218000C686B5 /* ReadMusicItemFromiPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BAE67E1CC7218000C686B5 /* ReadMusicItemFromiPod */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE6821CC7218000C686B5 /* AppDelegate.h */,
+				62BAE6831CC7218000C686B5 /* AppDelegate.m */,
+				62BAE6A41CC7218B00C686B5 /* Model */,
+				62BAE6B51CC7481F00C686B5 /* Controller */,
+				62BAE6881CC7218000C686B5 /* Main.storyboard */,
+				62BAE68B1CC7218000C686B5 /* Assets.xcassets */,
+				62BAE68D1CC7218000C686B5 /* LaunchScreen.storyboard */,
+				62BAE6901CC7218000C686B5 /* Info.plist */,
+				62BAE67F1CC7218000C686B5 /* Supporting Files */,
+			);
+			path = ReadMusicItemFromiPod;
+			sourceTree = "<group>";
+		};
+		62BAE67F1CC7218000C686B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE6801CC7218000C686B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62BAE6981CC7218000C686B5 /* ReadMusicItemFromiPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE6991CC7218000C686B5 /* ReadMusicItemFromiPodTests.m */,
+				62BAE69B1CC7218000C686B5 /* Info.plist */,
+			);
+			path = ReadMusicItemFromiPodTests;
+			sourceTree = "<group>";
+		};
+		62BAE6A41CC7218B00C686B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE6A51CC721CE00C686B5 /* VNBMusicItem.h */,
+				62BAE6A61CC721CE00C686B5 /* VNBMusicItem.m */,
+				62BAE6A71CC721CE00C686B5 /* VNBMusicManager.h */,
+				62BAE6A81CC721CE00C686B5 /* VNBMusicManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		62BAE6B51CC7481F00C686B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62BAE6851CC7218000C686B5 /* ViewController.h */,
+				62BAE6861CC7218000C686B5 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BAE67B1CC7218000C686B5 /* ReadMusicItemFromiPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BAE69E1CC7218000C686B5 /* Build configuration list for PBXNativeTarget "ReadMusicItemFromiPod" */;
+			buildPhases = (
+				62BAE6781CC7218000C686B5 /* Sources */,
+				62BAE6791CC7218000C686B5 /* Frameworks */,
+				62BAE67A1CC7218000C686B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadMusicItemFromiPod;
+			productName = ReadMusicItemFromiPod;
+			productReference = 62BAE67C1CC7218000C686B5 /* ReadMusicItemFromiPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BAE6941CC7218000C686B5 /* ReadMusicItemFromiPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BAE6A11CC7218000C686B5 /* Build configuration list for PBXNativeTarget "ReadMusicItemFromiPodTests" */;
+			buildPhases = (
+				62BAE6911CC7218000C686B5 /* Sources */,
+				62BAE6921CC7218000C686B5 /* Frameworks */,
+				62BAE6931CC7218000C686B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BAE6971CC7218000C686B5 /* PBXTargetDependency */,
+			);
+			name = ReadMusicItemFromiPodTests;
+			productName = ReadMusicItemFromiPodTests;
+			productReference = 62BAE6951CC7218000C686B5 /* ReadMusicItemFromiPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BAE6741CC7218000C686B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Changhong electric Co., Ltd.";
+				TargetAttributes = {
+					62BAE67B1CC7218000C686B5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					62BAE6941CC7218000C686B5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 62BAE67B1CC7218000C686B5;
+					};
+				};
+			};
+			buildConfigurationList = 62BAE6771CC7218000C686B5 /* Build configuration list for PBXProject "ReadMusicItemFromiPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62BAE6731CC7218000C686B5;
+			productRefGroup = 62BAE67D1CC7218000C686B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BAE67B1CC7218000C686B5 /* ReadMusicItemFromiPod */,
+				62BAE6941CC7218000C686B5 /* ReadMusicItemFromiPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62BAE67A1CC7218000C686B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BAE68F1CC7218000C686B5 /* LaunchScreen.storyboard in Resources */,
+				62BAE68C1CC7218000C686B5 /* Assets.xcassets in Resources */,
+				62BAE68A1CC7218000C686B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BAE6931CC7218000C686B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BAE6781CC7218000C686B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BAE6871CC7218000C686B5 /* ViewController.m in Sources */,
+				62BAE6841CC7218000C686B5 /* AppDelegate.m in Sources */,
+				62BAE6AA1CC721CE00C686B5 /* VNBMusicManager.m in Sources */,
+				62BAE6811CC7218000C686B5 /* main.m in Sources */,
+				62BAE6A91CC721CE00C686B5 /* VNBMusicItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BAE6911CC7218000C686B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BAE69A1CC7218000C686B5 /* ReadMusicItemFromiPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BAE6971CC7218000C686B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BAE67B1CC7218000C686B5 /* ReadMusicItemFromiPod */;
+			targetProxy = 62BAE6961CC7218000C686B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62BAE6881CC7218000C686B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BAE6891CC7218000C686B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BAE68D1CC7218000C686B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BAE68E1CC7218000C686B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62BAE69C1CC7218000C686B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62BAE69D1CC7218000C686B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BAE69F1CC7218000C686B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadMusicItemFromiPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Changhong-electric-Co.--Ltd..ReadMusicItemFromiPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62BAE6A01CC7218000C686B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadMusicItemFromiPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Changhong-electric-Co.--Ltd..ReadMusicItemFromiPod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62BAE6A21CC7218000C686B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReadMusicItemFromiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Changhong-electric-Co.--Ltd..ReadMusicItemFromiPodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadMusicItemFromiPod.app/ReadMusicItemFromiPod";
+			};
+			name = Debug;
+		};
+		62BAE6A31CC7218000C686B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReadMusicItemFromiPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Changhong-electric-Co.--Ltd..ReadMusicItemFromiPodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadMusicItemFromiPod.app/ReadMusicItemFromiPod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BAE6771CC7218000C686B5 /* Build configuration list for PBXProject "ReadMusicItemFromiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BAE69C1CC7218000C686B5 /* Debug */,
+				62BAE69D1CC7218000C686B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BAE69E1CC7218000C686B5 /* Build configuration list for PBXNativeTarget "ReadMusicItemFromiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BAE69F1CC7218000C686B5 /* Debug */,
+				62BAE6A01CC7218000C686B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BAE6A11CC7218000C686B5 /* Build configuration list for PBXNativeTarget "ReadMusicItemFromiPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BAE6A21CC7218000C686B5 /* Debug */,
+				62BAE6A31CC7218000C686B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BAE6741CC7218000C686B5 /* Project object */;
+}
