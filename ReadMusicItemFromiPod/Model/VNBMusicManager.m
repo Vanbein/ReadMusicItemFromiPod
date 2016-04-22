@@ -67,7 +67,7 @@
  */
 - (BOOL)prepareToShareAlbumItem:(VNBMusicItem *)item error:(NSError **)error completion:(void (^)(NSError *err))completion{
     
-//    __block NSError *Error = nil;
+    __block NSError *err = nil;
     
     NSFileManager *fm = [NSFileManager defaultManager];
     //若文件夹不存在，创建文件夹
@@ -79,6 +79,8 @@
         }
     }
     
+    NSString *localPath = [Cache_Directory stringByAppendingPathComponent:item.fileName];
+
     [self clearCacheWithOutMusicItem:item];
     
     //音乐 m4a
@@ -110,11 +112,26 @@
                 NSLog(@"exportSession.status AVAssetExportSessionStatusCompleted");
                 
                 //do something
+                NSError *error;
+                [fm moveItemAtPath:outPathUrl toPath:localPath error:&error];
+                //只能导出为 m4a 文件，导出后再更名为 MP3
+                //outPathUrl: ~/Documents/Web/musicName.m4a
+                //localPath: ~/Documents/Web/musicName.mp3
+
+                dispatch_sync(dispatch_get_main_queue(), ^{
+                    if (completion) {
+                        completion(err);
+                    }
+                });
+                
                 break;
             }
             case AVAssetExportSessionStatusFailed:{//4
                 
                 NSLog(@"exportSession.status2 AVAssetExportSessionStatusFailed");
+                if (completion) {
+                    completion(self.exportSessionMusic.error);
+                }
                 NSLog(@"error:%@",self.exportSessionMusic.error);
                 break;
             }
